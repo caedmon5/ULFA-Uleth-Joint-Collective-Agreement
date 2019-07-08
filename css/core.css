@@ -1,0 +1,101 @@
+ .note a[href]:link, .movedText a[href]:link, .newText a[href]:link {
+               color:inherit;
+               }
+               
+               a[href]:link {
+               color: blue;
+               text-decoration: none;
+               /* font-weight:bold; */
+               }
+               
+               a:visited {
+               color: purple;
+               }
+               
+               a[href]:hover {
+               cursor: pointer;
+               text-decoration: underline;
+               background-color: #FFEFD5;
+               color: red;
+               /* font-family: sans-serif;
+               font-weight: bold; */
+               }
+               
+               a[href]:focus {
+               /* font-weight: bold;
+               background-color: yellow; */
+               }
+               
+               
+               body {
+               max-width: 50em;
+               margin-left: auto;
+               margin-right: auto;
+               font-size: 120%;
+               line-height: 1.2;
+               }
+               
+               p {
+               text-indent: 0;
+               padding-left: 2em;
+               margin-bottom: 0.5em;
+               margin-top: 0.5em;
+               }
+               li {
+               list-style: none;
+               text-indent: -3em;
+               padding-left: 3em;
+               margin-bottom: 0.5em;
+               margin-top: 0.5em;
+               }
+               li.toc {
+               list-style-type: none;
+               margin-bottom: 0em;
+               margin-top: 0em;
+               line-height: 1;
+               }
+               span.head {
+               font-weight: bold;
+               }
+               table,
+               tr,
+               td {
+               border-collapse: collapse;
+               border: 1px solid black;
+               text-indent: 0;
+               padding: 1em
+               }
+               
+               
+               .newText {
+               text-decoration:inherit;
+               font-weight:bold;
+               font-style:normal;
+               color: blue;
+               cursor:help;
+               background-color: yellow;
+               }
+               
+               .movedText {
+               font-style:oblique;
+               color: blue;
+               background-color: lightgray;
+               }
+               
+               .note {
+               font-size:small;
+               color:gray !important;
+               font-style:oblique;
+               position: absolute;
+               text-align:right;
+               width:90pt;
+               min-width: 5em;
+               /* background-clip:content-box;*/
+               float: left;
+               clear: right;
+               /* background: yellow; */
+               /*  border:double; */
+               position: relative;
+               margin-left: -120pt;
+               padding-right: 5em;
+               /* margin-top: -50%*/}
